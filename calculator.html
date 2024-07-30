@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator project -1</title>
+    <link rel="stylesheet" href="calsi.css" />
+    <script src="calsi.js"></script>
+
+  </head>
+  <body>
+    <h1>Calculator Project 1</h1>
+    <div class="calculator" >
+      <table>
+        <tr>
+          <td colspan="3"><input type="text" id="result" class="screen" placeholder=" Solve Your Sum" /></td>
+         <td><input type="button" value="C" onclick="clearScreen()" class="clear"></td>
+        </tr>
+      </table>
+      <div class="keys">
+ <input type="button" value="7" class="btn" onClick="display ('7')"></input>
+ <input type="button" value="8" class="btn" onClick="display ('8')"></input>
+ <input type="button" value="9" class="btn" onClick="display ('9')"></input>
+ <input type="button" value="/" class="oprater" onClick="display ('/')"></input> 
+ <input type="button" value="*" class="oprater" onClick="display ('*')"></input>
+ <input type="button" value="4" class="btn" onClick="display ('4')"></input>
+ <input type="button" value="5" class="btn" onClick="display ('5')"></input>
+ <input type="button" value="6" class="btn" onClick="display ('6')"></input>
+ <input type="button" value="-" class="oprater" onClick="display ('-')"></input>
+ <input type="button" value="+" class="oprater" onClick="display ('+')"></input>
+ <input type="button" value="1" class="btn" onClick="display ('1')"></input>
+ <input type="button" value="2" class="btn" onClick="display ('2')"></input>
+ <input type="button" value="3" class="btn" onClick="display ('3')"></input>
+ <input type="button" value="%" class="oprater" onClick="display ('%')"></input>
+ <input type="button" value="^" class="oprater" onClick="display ('^')"></input>
+ <input type="button" value="0" class="btn" onClick="display ('0')"></input>
+ <input type="button" value="=" class="solve" onClick="solve ('=')"></input>
+
+      </div>
+    </div>
+  </body>
+ 
+</html>

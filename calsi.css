@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+.calculator {
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px auto;
+  display: grid;
+  width: 500px;
+  height: 80vh;
+  /* background-color: blueviolet; */
+  border-radius: 50px;
+  background-color: lightcoral;
+  box-shadow: 20px 20px lavender;
+}
+/* styling keys  */
+.keys {
+  margin: 10px;
+  padding: 7px 14px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* color: orange; */
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* background-color: blue; */
+  grid-gap: 3px;
+  position: relative;
+  top: -50px;
+}
+.btn {
+  margin: 10px;
+  padding: 20px;
+  /* background-color: yellow; */
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.btn:hover{
+    background-color: yellow;
+    box-shadow: 1px 1px 17px 14px blue;
+    transition: all, 0.3s ease-in-out ;
+}
+
+.oprater {
+  margin: 10px;
+  padding: 20px;
+  /* background-color: tomato; */
+  border-radius: 10px;
+  font-size: 25px;
+}
+.oprater:hover{
+    background-color: orange;
+    box-shadow: 1px 1px 17px 14px yellow;
+    transition: all, 0.3s ease-in-out ;
+}
+
+.clear {
+  /* background-color:black; */
+  margin : 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.clear:hover{
+    background-color: red;
+    box-shadow: 1px 1px 17px 10px black;
+    transition: all, 0.3s ease-in-out ;
+}
+/* styling text areaa */
+#result {
+  margin: 21px;
+  width: 342px;
+  height: 68px;
+  border-radius: 15px;
+  display: grid;
+  position: relative;
+  top: 2px;
+  background-color: lightblue;
+}
+#result:hover{
+    background-color: lightyellow;
+}
+.solve {
+  margin: 10px;
+  padding: 7px 14px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* olor: orangec;
+    background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* background-color: blue; */
+  grid-gap: 3px;
+  position: relative;
+  float: right;
+  
+  
+
+  margin: 10px;
+  padding: 20px;
+  /* background-color: tomato; */
+  border-radius: 10px;
+  font-size: 25px;
+}
+.solve:hover{
+    background-color: red;
+    box-shadow: 1px 1px 17px 10px black;
+    transition: all, 0.3s ease-in-out ;
+    
+}
+
